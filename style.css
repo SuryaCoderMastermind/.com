@@ -1,126 +1,61 @@
-*
-{
-padding: 0;
-margin: 0;
-    box-sizing: border-box;
+{margin: 0px;
+padding: 0px;
 }
 body
-{background-image: url(Wall.jpeg);
-
-    font-family: sans-serif;
-}
-.menu-bar
 {
-    background: rgb(0,0,0.5);
+    background-image: url(images.jpeg);
+}
+
+h1{
+   text-align: center;
+    font-size: 100px;
+    color: darkorange;
+}
+.Menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);
     text-align: center;
 }
-.menu-bar ul
-{
+.Menu ul{
     display: inline-flex;
     list-style: none;
-    color: white;
+    color:  greenyellow;
 }
-.menu-bar ul li
-{
+.Menu ul li{
     width: 120px;
-    margin: 15px;
+    margin: -5px;
     padding: 15px;
 }
-.menu-bar ul li a{
-    text-decoration: none;
-    color: white;
-}
-.active, .menu-bar ul li:hover
-{
-    background: Gray;
-    border-radius: 3px;
-}
-.menu-bar .fa
-{
-    margin: 8px;
-}
-.sub-menu1
-{
-    display: none;
-}
-.menu-bar ul li:hover .sub-menu1
-{
-    display: block;
-    position: absolute;
-    background: rgb(0,1,0);
-    margin-top: 15px;
-    margin-left: 15px;
-}
-.menu-bar ul li:hover .sub-menu1 ul{
-    display: block;
-    margin: 10px;
-}
-.menu-bar ul li:hover .sub-menu1 ul li {
-width: 150px;
-    padding: 10px;
-    border-bottom: 1px dottod #fff;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
-}
-.menu-bar ul li:hover .sub-menu1 ul li:last-child
-{
-    border-bottom: none;
-}
-.menu-bar ul li:hover .sub-menu1 ul li a:hover
-{
-    color: goldenrod;
-}
-.fa fa-angle-right
-{
+
+.rightmenu{
+    width: 70%;
+    height: 100px;
     float: right;
 }
-.sub-menu2
-{
-    display: NONE;
+.rightmenu ul{
+    margin left: 800px;
 }
-.hover-me:hover .sub-menu2
-{
-    position: absolute;
-    display: block;
-    margin-top: -40px;
-    margin-left: 140px;
-    background: black;
-}
-.text{
-    width: 100%;
-    margin-top: 150px; 
+.rightmenu ul li{
+         font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    list-style: none;
+    font-size: 50px;
+    color: greenyellow;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: -450px;
     text-transform: uppercase;
-    text-align: center;
-    color: yellow;
-    font-family: 'Montserrat', sans-serif;
-}
-.texth4{
-    font-size: 72px;
-       font-family: 'Montserrat', sans-serif;
-    color: aqua;
     }
-
-.texth1{
-    font-size: 500px;
-       font-family: 'Montserrat', sans-serif;
-    font-weight: 700px;
-    margin: 200px;
+.Menu ul li:hover { 
+    color: darkviolet;
 }
-#buttonone{
-    background-color: red;
-    border: none;
-    font-size: 20px;
-    text-transform: uppercase;
-    line-height: 40px;
-    width: 150px;
-     font-family: 'Montserrat', sans-serif;
-    margin-top: 25px;
-    border: 3px Red;
+.Menu ul li a{
+    text-decoration: none;
+    color: limegreen;
 }
-iframe {
-    margin-top: -300px;
-}
-iframe {
-    margin-right: -350px;
+.active, .Menu ul li:hover;
+{
+    background: Red;
+    border-radius: 3px;
 }
